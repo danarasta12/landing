@@ -1,0 +1,41 @@
+/* Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&family=Poppins:wght@700');
+
+/* Fontawesome */
+@import url('https://use.fontawesome.com/releases/v6.1.2/css/all.css');
+
+.hero-banner {
+  height: 600px;
+  display: flex;
+  align-items: center;
+  background-position: center;
+  background-size: cover;
+}
+
+.hero-banner h1,
+.hero-banner p{
+  color: white;
+}
+
+.hero-banner h1{
+  margin-top: 0px;
+  font-size: 32px;
+  line-height: 27px;
+  margin-bottom: 38px;
+}
+
+.hero-banner p{
+  font-size: 20px;
+  line-height: 17px;
+  font-weight: lighter;
+  opacity: 0.7;
+  margin-bottom: 40px;
+
+}
+
+.hero-banner a{
+  color: white;
+  background-color: #1EDD88;
+  border-radius: 30px;
+  padding: 15px 35px;
+}

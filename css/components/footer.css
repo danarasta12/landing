@@ -1,0 +1,29 @@
+/* Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&family=Poppins:wght@700');
+
+/* Fontawesome */
+@import url('https://use.fontawesome.com/releases/v6.1.2/css/all.css');
+
+.footer {
+  background-color: #2c2b2b;
+  height: 220px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.footer p{
+  opacity: 1;
+  color: #6B6C6C;
+  font-size: 16px;
+  text-align: center;
+}
+
+.footer .logos {
+  text-align: center;
+}
+
+.logos i {
+  margin: 5px;
+  padding-bottom: 10px;
+}
